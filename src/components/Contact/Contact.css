@@ -1,11 +1,9 @@
     .ContactItems {
-        background-color: #39465c;
+        /* background-color: #39465c; */
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* border-left: 2px solid white;
-        border-right: 2px solid white; */
     }
     
     .contact-header {

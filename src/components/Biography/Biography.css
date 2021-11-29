@@ -4,9 +4,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* border-bottom: 2px solid white;
-    border-left: 2px solid white;
-    border-right: 2px solid white; */
 }
 
 .bio-parts {
@@ -104,6 +101,8 @@
     .bio-pic {
         width: 10rem;
         margin-top: 5rem;
+        outline: none;
+        border: 3px solid lightblue;
     }
     .bio-github,
     .bio-linkedin {

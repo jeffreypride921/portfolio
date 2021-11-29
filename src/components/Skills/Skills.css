@@ -1,13 +1,9 @@
 .SkillsItems {
-    /* background-color: #445570; */
-    background-color: #39465c;
+    /* background-color: #39465c; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border-bottom: 2px solid white;
-    border-left: 2px solid white;
-    border-right: 2px solid white; */
 }
 
 .skills-header {

@@ -5,7 +5,7 @@ class Home extends React.Component{
     render(){
         return(
             <div className='HomeItems' id='/'>
-                <img src='/images/keyboard.jpg' className='bg' alt='bg'/>
+                <img src='/images/keyboard2.jpg' className='bg' alt='bg'/>
                 <h1 className="home-header">
                     <span className='first'>Jeffrey</span>
                     <span className='second'> M.</span>
