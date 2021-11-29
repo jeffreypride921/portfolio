@@ -1,0 +1,143 @@
+.BiographyItems {
+    height: auto;
+    background-color: #283242;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white; */
+}
+
+.bio-parts {
+    display: flex;
+    align-items: center;
+}
+
+.bio-profile {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    left: 7.5rem;
+    align-items: center;
+}
+
+.bio-profile-links {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 1.6rem;
+    margin-top: 2rem;
+}
+
+.bio-link-1:hover,
+.bio-link-2:hover {
+    transform: scale(1.3);
+}
+
+.bio-github,
+.bio-linkedin {
+    font-size: 3rem;
+    color: #597196;
+}
+
+.bio-linkedin {
+    margin-left: 1.5rem;
+}
+
+.bio-pic {
+    position: relative;
+    width: 17.5rem;
+    left: 10%;
+    margin-top: -2rem;
+    border-radius: 10rem;
+    outline-style: inset;
+    outline-color: lightblue;
+}
+
+.biography {
+    position: relative;
+    width: 50%;
+    left: 20%;
+    overflow-wrap: break-word;
+    color: white;
+    margin-top: 6rem;
+    margin-bottom: 8rem;
+}
+
+.bio-header {
+    font-size: 4rem;
+    color: lightblue;
+    margin-bottom: 1.5rem;
+}
+
+.bio-content {
+    font-size: 1.5rem;
+}
+
+.bio-header-2 {
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    padding: none;
+    color: lightblue;
+}
+
+.bio-content-2 {
+    font-size: 1.5rem;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.bio-content-2-sub {
+    font-size: 1rem;
+    margin-top: 3px;
+    padding-left: 35px;
+    color: lightgray;
+}
+
+.fa-graduation-cap {
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 960px) {
+    .bio-pic {
+        width: 10rem;
+        margin-top: 5rem;
+    }
+    .bio-github,
+    .bio-linkedin {
+        font-size: 3rem;
+    }
+    .bio-profile-links {
+        left: 1rem;
+    }
+    .bio-parts {
+        flex-direction: column;
+    }
+    .bio-profile {
+        left: -5%;
+    }
+    .biography {
+        width: 80%;
+        left: 1%;
+        margin-top: 10%;
+    }
+    .bio-header {
+        font-size: 3rem;
+    }
+    .bio-content {
+        font-size: 1rem;
+    }
+    .bio-header-2 {
+        font-size: 1rem;
+        margin-top: 25px;
+    }
+    .bio-content-2 {
+        font-size: 0.75rem;
+    }
+    .bio-content-2-sub {
+        font-size: 0.5rem;
+        padding-left: 19px;
+    }
+}
