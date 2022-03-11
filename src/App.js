@@ -1,9 +1,6 @@
 import React from 'react';
 import './App.css';
-// import { Route, Routes} from 'react-router-dom';
 import { BrowserRouter as Router} from 'react-router-dom';
-// import { AnimatePresence } from 'framer-motion'; 
-//import motion from 'framer-motion';
 
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
